@@ -10,7 +10,9 @@ RUN npm install
 
 COPY . .
 
+RUN ls
+
 EXPOSE 8000
 
-CMD ["npm","start"]
+CMD ["node","index.js"]
 
